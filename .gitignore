@@ -1,0 +1,22 @@
+### react ###
+.env
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+firebase.json
+.firebase
+.firebaserc
+.firebase.json
+
+node_modules
+build
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
