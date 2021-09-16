@@ -6,29 +6,6 @@ import LoadingSpinner from "../components/UI/LoadingSpinner";
 import useHttp from "../hooks/use-http";
 import { getSingleQuote } from '../lib/api';
 
-const DUMMY_QUOTES = [
-    {
-        id: 'q1',
-        text: 'My first quote',
-        author: 'Monkey the luffy'
-    },
-    {
-        id: 'q2',
-        text: 'My second quote',
-        author: 'Usoff'
-    },
-    {
-        id: 'q3',
-        text: 'My third quote',
-        author: 'Sanji'
-    },
-    {
-        id: 'q4',
-        text: 'My forth quote',
-        author: 'Nami'
-    }
-];
-
 const QuoteDetails = () => {
     const match = useRouteMatch();
     const params = useParams();
